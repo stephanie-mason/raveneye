@@ -16,11 +16,12 @@ Enjoy responsibly!
 $(document).ready(function() {
 	
 $(window).load(function () {	
-$( "#toggle" ).click(function() {
-$( "#hide-me" ).slideToggle( "slow", function() {
-// Animation complete.
+	$( "#toggle" ).click(function() {
+		$( "#hide-me" ).slideToggle( "slow", function() {
+	// Animation complete.
+	});
 });
+
 });
 
 });
-
