@@ -15,12 +15,7 @@ Enjoy responsibly!
 
 $(document).ready(function() {
 	
-$(window).load(function () {
-
-$("#loader").fadeOut("slow");
-
-})
-		
+$(window).load(function () {	
 $( "#toggle" ).click(function() {
 $( "#hide-me" ).slideToggle( "slow", function() {
 // Animation complete.
